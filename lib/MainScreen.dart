@@ -63,7 +63,26 @@ class Mainscreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Rencana Kunjungan'
+                        'Rencana Kunjungan',
+                        style: ,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                  ),
+                  SizedBox(height: 18),
+                  Row(children: [
+                    Icon(Icons.location_searching, color: const Color.fromARGB(255, 65, 105, 20),
+                    SizedBox(width: 12),
+                    Text('Lokasi'),
+                    Spacer(),
+                    Text('Bandungan, Semarang')
+
+                    Divider(height: 28),
+                    Row(children: [
+                      Icon(Icons.clock)
+                    ],)
+                    )
+                  ],)
                       )
                     ],
                   )
